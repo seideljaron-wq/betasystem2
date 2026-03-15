@@ -1,0 +1,20 @@
+name: BetaPlugin
+version: 1.0.0
+main: de.betaplugin.BetaPlugin
+api-version: 1.21
+authors: [javakuba]
+description: Beta Tester management plugin with Discord webhook logging.
+
+commands:
+  beta-admin:
+    description: Add or remove Beta Admins (javakuba only)
+    usage: /beta-admin <add|remove> <player>
+  beta-tester:
+    description: Add or remove Beta Testers
+    usage: /beta-tester <add|remove> <player>
+  beta:
+    description: Open the Beta GUI
+    usage: /beta
+  bug:
+    description: Report a bug
+    usage: /bug <description>
